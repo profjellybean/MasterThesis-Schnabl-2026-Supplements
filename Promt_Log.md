@@ -14,5 +14,5 @@ Do not change my core arguments, data, or underlying meaning.
 If a sentence is highly confusing and you are unsure of my intent, highlight it and offer a couple of different ways to rewrite it based on what you think I mean.
 
 Output format:
-Please provide the fully revised text.
+Please provide only the parts you would change.
 Below the text, provide a brief bulleted list explaining any major structural changes you made or areas where I should double-check my phrasing
