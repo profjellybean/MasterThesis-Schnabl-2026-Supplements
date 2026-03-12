@@ -19,6 +19,13 @@ This section contains the Oracle SQL scripts used to mine the ReposiTUm persiste
 * **sql_scripts.md**: Scripts to calculate inter-departmental latency and user rework durations & 
 Logic used to quantify the "Hidden Factory" by mapping rejections to specific workflow steps (FIS, Library, Faculty).
 
+### 3. Workflow Simulation & Results
+
+This section contains the dynamic validation models and their visual outputs, demonstrating the active touch-time reductions of the proposed TO-BE architectures.
+* **simulation.py**: The Python script executing the 10,000-trial Monte Carlo simulation to evaluate active human administrative effort across the AS-IS baseline and the proposed workflow packages.
+* **simulation_results.pdf**: A composite visualization of the simulation trials, featuring density distributions, a notched box plot, and a Cumulative Distribution Function (CDF).
+* **labor_composition_stacked_bar.pdf**: A stacked bar chart illustrating the structural shift in labor composition, explicitly detailing the breakdown between Researcher Entry Time and Validator Review Time across the tested models.
+
 
 ## Disclaimer
 All core intellectual content, analytical findings, and research contributions in the associated thesis are the original work of the author. The AI logs provided here are for reproducibility and transparency purposes only, demonstrating the "Human-in-the-Loop" verification process.
